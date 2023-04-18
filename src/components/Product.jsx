@@ -3,7 +3,7 @@ import React from 'react';
 const Product = ({ product }) => {
   return (
     <div className="card mb-4 shadow-sm">
-      <img src={product.image} alt={product.title} className="card-img-top rounded mx-auto d-block" style={{ height: '200px', width: '200px', objectFit: 'cover' }} />
+      <img src={product.images} alt={product.title} className="card-img-top rounded mx-auto d-block" style={{ height: '200px', width: '200px', objectFit: 'cover' }} />
       <div className="card-body">
         <h5 className="card-title">{product.title}</h5>
         <p className="card-text">{product.description}</p>
